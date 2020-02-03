@@ -57,7 +57,7 @@ class App extends Component {
 
   // Toggle functions to flick through jumps
   previous = () => {
-      console.log('Length', this.state.jumps.length, 'id:', this.state.id )
+      // console.log('Length', this.state.jumps.length, 'id:', this.state.id )
     if (this.state.id > 0) {
       this.setState({id: this.state.id-1})
     } else { this.setState({id: this.state.jumps.length -1 });}

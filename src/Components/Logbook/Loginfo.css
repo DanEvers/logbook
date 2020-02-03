@@ -7,7 +7,7 @@
 
 .main-content { 
     grid-area: main-content; 
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 h3 {
