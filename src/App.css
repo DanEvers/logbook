@@ -1,0 +1,29 @@
+body {
+  background-image: url(./Components/images/skydiver-sport-hd-wallpaper-1920x1080-2575.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Cambay', sans-serif;
+  font-size: 2.5em;
+  width: 100vw;
+  height: 40px;
+  color: black;
+}
+
+#button {
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+#button:hover {
+  color: black;
+  background-color: white;
+}

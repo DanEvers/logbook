@@ -1,0 +1,26 @@
+.content-edit {
+    display: grid;
+    grid-template-columns: 0.5fr 1.1fr 1.5fr;
+    grid-template-rows: 0.1fr 3.0fr 0.8fr;
+    grid-template-areas: ". . . ." ". main-content . ." ". main-edit . ." ". . . .";
+}
+
+.main-content { 
+    grid-area: main-content; 
+    border: 2px solid black;
+}
+
+/* h3 {
+    font-family: 'Cambay', sans-serif;
+}
+
+p {
+    font-size: 0.82em;
+    font-family: 'Cambay', sans-serif;
+} */
+
+.main-edit {
+    grid-area: main-edit;
+    justify-content: center;
+    text-align: center;
+}
